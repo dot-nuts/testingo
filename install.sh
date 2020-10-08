@@ -1,6 +1,6 @@
 #! /bin/sh
 echo "url"
-url="$2"
+url="$3"
 echo $url
 echo "filename"
 filename=$(basename "$url")
