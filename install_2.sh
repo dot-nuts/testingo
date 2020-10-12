@@ -11,4 +11,4 @@ echo $workpath
 echo "curl"
 curl $url -o $workpath/$filename -s
 echo "dpkg"
-dpkg --install  $workpath/$filename
+sudo dpkg --install  $workpath/$filename
