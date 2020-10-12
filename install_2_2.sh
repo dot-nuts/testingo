@@ -2,6 +2,7 @@
 if (( $EUID != 0 ))
 then
         echo "Please run as root"
+        sudo echo "___"
         exit
 fi
 url="$2"
